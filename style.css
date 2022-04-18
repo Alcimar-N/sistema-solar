@@ -27,7 +27,8 @@ header >h1 {
     color: #ffffff;
     text-align: center;
     margin-bottom: 10px;
-    margin-top: 20px
+    margin-top: 20px;
+    
 }
 /*menu de navegaçao*/
 nav{
@@ -91,4 +92,13 @@ footer {
     
 }
 
+footer > a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
 
+footer >a:hover {
+    color: #0a9ce0d8;
+    text-decoration: underline;
+}
