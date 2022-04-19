@@ -22,7 +22,7 @@ body::-webkit-scrollbar-thumb {
 }
 /*titulo principal*/
 header >h1 {
-    font-size: 5.0em;
+    font-size: 3.0em;
     font-family: 'nasa';
     color: #ffffff;
     text-align: center;
@@ -31,9 +31,9 @@ header >h1 {
     
 }
 /*menu de navegaçao*/
-nav{
-    margin-left: 130px ;
 
+nav {
+    text-align: center;
 }
 
 nav > a {
@@ -44,8 +44,6 @@ nav > a {
     transition-duration: 0.5s;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:small;
-    margin-left: 15px;
-    
   
 }
 
@@ -80,7 +78,11 @@ h2 {
     color: #ffffffd7;
 }
 
-img {
+
+
+main img{
+   width: 100%;
+    display: block;
     border-radius: 10px;
     margin-bottom: 10px;
 }
